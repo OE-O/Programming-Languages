@@ -1,0 +1,60 @@
+SoftwareType
+	{
+	Name			"Programming Language"
+	Category		Productivity
+	Description		"What else are you supposed to use to create programs?"
+	Categories
+		[
+			{
+			Name			Procedural
+			Description		"Execute a sequence of statements which lead to a result."
+			Popularity		0.8
+			Retention		24
+			TimeScale		1
+			Iterative		0.8
+			Submarkets		[ 1; 2; 4 ]
+			}
+			{
+			Name			Functional
+            Description		"Typically uses stored data!"
+			Popularity		0.6
+			Retention		18
+			TimeScale		1
+			Iterative		0.8
+			Submarkets		[ 2; 4; 4 ]
+			}
+			{
+			Name			Object-oriented
+			Description		"View the world as groups of objects."
+			Popularity		0.7
+			Retention		18
+			TimeScale		1
+			Iterative		0.7
+			NameGenerator	GameSimulation
+			Submarkets		[ 3; 1; 0 ]
+			}
+			{
+			Name			Scripting
+            Description		"Not full-fledged programming languages, built for one purpose."
+			Popularity		0.3
+			Retention		12
+			TimeScale		0.75
+			Iterative		0.95
+			Submarkets		[ 1; 0; 0 ]
+			}
+			{
+			Name			Logic
+			Description		"Bacially a Neural Network"
+			Popularity		0.6
+			Retention		24
+			TimeScale		1
+			Iterative		0.95
+			Submarkets		[ 4; 1; 2 ]
+			}
+		]
+	Random			0.6
+	IdealPrice		60
+	OptimalDevTime	40
+	OSSupport		True
+	SubmarketNames	[ Understandability; Compiler; IDE ]
+    NameGenerator	ProgrammingLanguages
