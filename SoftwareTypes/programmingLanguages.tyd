@@ -3,16 +3,6 @@ SoftwareType
 	Name			"Programming Language"
 	Category		Productivity
 	Description		"What else are you supposed to use to create programs?"
-	Random			0.3
-	Popularity		0.5
-	Retention		16
-	IdealPrice		70
-	OptimalDevTime	25
-	SubmarketNames	[ "Passive protection"; "Active protection"; "Monitoring" ]
-	Iterative		1
-	NameGenerator	Antivirus
-	OSSupport		[ Computer; Phone ]
-	InHouse			False
 	Categories
 		[
 			{
@@ -68,3 +58,56 @@ SoftwareType
 	OSSupport		True
 	SubmarketNames	[ Understandability; Compiler; IDE ]
     NameGenerator	ProgrammingLanguages
+    Features 
+	[
+		{
+			Name		"Compiler"
+			Spec		System
+			Description "Convert the readable code into something the machine can understand."
+			DevTime		3
+			CodeArt		0.5
+			Submarkets	[ 2; 4; 1 ]
+			Features 
+			[
+				{
+					
+				}
+			]
+		}
+		{
+			Name		"Intergrated IDE"
+			Spec		System
+			Description "Code from a neat little editor that is made just for the Programming Langage"
+			DevTime		2
+			CodeArt		0.5
+			Submarkets	[ 2; 0; 3 ]
+			Features 
+			[
+				{
+					Name		"Syntax Errors"
+					Description "Scan for errors in the code."
+					DevTime		2
+					Level		1
+					CodeArt		1
+					Submarkets	[ 1; 0; 2 ]
+				}
+				{
+					Name		"Multitasking"
+					Description "Have multiple files open at the same time."
+					DevTime		3
+					Level		1
+					CodeArt		1
+					Submarkets	[ 0; 0; 3 ]
+				}
+				{
+					Name		"AI Code Checker"
+					Description "Download users code and sell it to a AI that checks for errors. You can get sued for this."
+					DevTime		2
+					Level		3
+					CodeArt		1
+					Script_EndOfDay "/Scripts/sellUserFiles.txt"
+					Submarkets	[ 1; 0; 0 ]
+				}
+			]
+		}
+	]
