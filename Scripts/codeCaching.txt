@@ -1,0 +1,3 @@
+Product.DevCompany.MakeTransaction(5 * Product., Sales);
+var exchange = Refunds * 0.05;
+Refunds = Refunds + exchange;

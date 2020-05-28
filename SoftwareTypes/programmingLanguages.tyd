@@ -1,17 +1,17 @@
 SoftwareType
 	{
 	Name			"Programming Language"
-	Category		Productivity
+	Category		Productivity 
 	Description		"What else are you supposed to use to create programs?"
 	Categories
 		[
 			{
-			Name			Procedural
+			Name			Procedural 
 			Description		"Execute a sequence of statements which lead to a result."
 			Popularity		0.8
 			Retention		24
 			TimeScale		1
-			Iterative		0.8
+			Iterative		0.8 
 			Submarkets		[ 1; 2; 4 ]
 			}
 			{
@@ -69,6 +69,14 @@ SoftwareType
 			Submarkets	[ 2; 4; 1 ]
 			Features 
 			[
+				{
+					Name		"Soft typing"
+					Description "Allow the code to run without loads of semicolons or brackets."
+					DevTime		2
+					Level		3
+					CodeArt		1
+					Submarkets	[ 4; 2; 1 ]
+				}
 				{
 					Name		"Error Handling"
 					Description "Report errors back to the user."
@@ -137,7 +145,44 @@ SoftwareType
 			Features
 			[
 				{
-
+					Name		"CLI Package Manager"
+					Description "Allow the user to get packages from the command line."
+					DevTime		3
+					Level		1
+					CodeArt		1
+					Submarkets	[ 2; 0; 0; ]
+				}
+				{
+					Name		"Package Site"
+					Description "Allow users to use a website to search for packages."
+					DevTime		3
+					Level		1
+					CodeArt		1
+					Submarkets	[ 2; 0; 0; ]
+				}
+				{
+					Name		"Link Accounts"
+					Description "Allow users to link their HubGit, Twitbook and TokTik with their package manager account."
+					DevTime		4
+					Level		1
+					CodeArt		1
+					Submarkets	[ 1; 0; 0; ]
+				}
+				{
+					Name		"Automatic Updates"
+					Description "Allow users to get automatic updates on certain packages."
+					DevTime		2
+					Level		2
+					CodeArt		1
+					Submarkets	[ 1; 0; 0 ]
+				}
+				{
+					Name		"GUI Interface"
+					Description "Allow users to use a really easy to use desktop app to install packages."
+					DevTime		2
+					Level		2
+					CodeArt		1
+					Submarkets	[ 1; 0; 2 ]
 				}
 			]
 		}
