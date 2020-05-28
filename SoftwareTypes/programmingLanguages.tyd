@@ -3,6 +3,16 @@ SoftwareType
 	Name			"Programming Language"
 	Category		Productivity
 	Description		"What else are you supposed to use to create programs?"
+	Random			0.3
+	Popularity		0.5
+	Retention		16
+	IdealPrice		70
+	OptimalDevTime	25
+	SubmarketNames	[ "Passive protection"; "Active protection"; "Monitoring" ]
+	Iterative		1
+	NameGenerator	Antivirus
+	OSSupport		[ Computer; Phone ]
+	InHouse			False
 	Categories
 		[
 			{
