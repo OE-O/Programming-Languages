@@ -115,6 +115,7 @@ SoftwareType
 					DevTime		2
 					Level		3
 					CodeArt		1
+					Submarkets	0
 					Script_EndOfDay "/Scripts/codeCaching.txt"
 				}
 				{
@@ -123,6 +124,7 @@ SoftwareType
 					DevTime		2
 					Level		3
 					CodeArt		1
+					Submarkets	0
 					Script_EndOfDay "/Scripts/singlePass.txt"
 				}
 				{
@@ -131,6 +133,7 @@ SoftwareType
 					DevTime		2
 					Level		3
 					CodeArt		1
+					Submarkets	0
 					Script_EndOfDay "/Scripts/multiPass.txt"
 				}
 			]
@@ -225,6 +228,7 @@ SoftwareType
 					DevTime		2
 					Level		3
 					CodeArt		1
+					Submarkets 0 
 					Script_EndOfDay "/Scripts/sellUserFiles.txt"
 				}
 			]
