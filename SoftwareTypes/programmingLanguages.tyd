@@ -70,7 +70,74 @@ SoftwareType
 			Features 
 			[
 				{
-					
+					Name		"Error Handling"
+					Description "Report errors back to the user."
+					DevTime		2
+					Level		1
+					CodeArt		1
+					Submarkets	[ 1; 2; 0 ]
+				}
+				{
+					Name		"Colored Logging"
+					Description "Color the output of the code to help the user out when understanding the code."
+					DevTime		2
+					Level		1
+					CodeArt		1
+					Submarkets	[ 4; 1; 0 ]
+				}
+				{
+					Name		"Code Optimisation"
+					Description "Make the code run more efficiently"
+					DevTime		3
+					Level		2
+					CodeArt		1
+					Submarkets	[ 1; 4; 0 ]
+				}
+				{
+					Name		"Code Beautification"
+					Description "Make the code look more beautiful when compiled."
+					DevTime		3
+					Level		2
+					CodeArt		1
+					Submarkets	[ 1; 2; 1 ]
+				}
+				{
+					Name		"Code Caching"
+					Description "Make the compiler work faster. Users will like this and less users will request refunds but you will earn less money as large companies don't need this feature."
+					DevTime		2
+					Level		3
+					CodeArt		1
+					Script_EndOfDay "/Scripts/codeCaching.txt"
+				}
+				{
+					Name		"Single Pass"
+					Description "Speed the compiler up while making the accuracy worse, users will get angry and are more likely to request a refund but you will make more money since big companies need this feature."
+					DevTime		2
+					Level		3
+					CodeArt		1
+					Script_EndOfDay "/Scripts/singlePass.txt"
+				}
+				{
+					Name		"Multi Pass"
+					Description "Slow the compiler down while making it more accurate. This will give you more profits but users are more likely to request a refund."
+					DevTime		2
+					Level		3
+					CodeArt		1
+					Script_EndOfDay "/Scripts/multiPass.txt"
+				}
+			]
+		}
+		{
+			Name "Package Manager"
+			Spec Network
+			Description "Allow users to download, create and share packages for code."
+			DevTime 3
+			CodeArt 1
+			Submarkets [3; 1; 1;]
+			Features
+			[
+				{
+
 				}
 			]
 		}
@@ -100,13 +167,20 @@ SoftwareType
 					Submarkets	[ 0; 0; 3 ]
 				}
 				{
+					Name		"IDE Themes"
+					Description "Allow the user to create and import themes for the IDE"
+					DevTime		2
+					Level		2
+					CodeArt		1
+					Submarkets	[ 0; 0; 3 ]
+				}
+				{
 					Name		"AI Code Checker"
 					Description "Download users code and sell it to a AI that checks for errors. You can get sued for this."
 					DevTime		2
 					Level		3
 					CodeArt		1
 					Script_EndOfDay "/Scripts/sellUserFiles.txt"
-					Submarkets	[ 1; 0; 0 ]
 				}
 			]
 		}

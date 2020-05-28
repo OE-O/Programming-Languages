@@ -1,3 +1,13 @@
 -start(end)
-
+Luo
+Simpo
+Lompo
+Impo
+Ampa
+Tompa
+Timpa
+Simpa
+Inkya
 -end()
+Code
+Language
