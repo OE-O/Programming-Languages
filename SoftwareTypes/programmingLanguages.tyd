@@ -73,7 +73,7 @@ SoftwareType
 					Name		"Soft typing"
 					Description "Allow the code to run without loads of semicolons or brackets."
 					DevTime		2
-					Level		3
+					Level		2
 					CodeArt		1
 					Submarkets	[ 4; 2; 1 ]
 				}
@@ -228,7 +228,7 @@ SoftwareType
 					DevTime		2
 					Level		3
 					CodeArt		1
-					Submarkets 0 
+					Submarkets  0 
 					Script_EndOfDay "/Scripts/sellUserFiles.txt"
 				}
 			]
