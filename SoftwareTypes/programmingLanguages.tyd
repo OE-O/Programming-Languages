@@ -191,7 +191,7 @@ SoftwareType
 		}
 		{
 			Name		"Intergrated IDE"
-			Spec		System
+			Spec		2D
 			Description "Code from a neat little editor that is made just for the Programming Langage"
 			DevTime		2
 			CodeArt		0.5
