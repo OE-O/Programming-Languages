@@ -94,7 +94,7 @@ SoftwareType
 					Submarkets	[ 4; 1; 0 ]
 				}
 				{
-					Name		"Code Optimisation"
+					Name		"Code Optimization"
 					Description "Make the code run more efficiently"
 					DevTime		3
 					Level		2
@@ -102,8 +102,16 @@ SoftwareType
 					Submarkets	[ 1; 4; 0 ]
 				}
 				{
-					Name		"Code Beautification"
-					Description "Make the code look more beautiful when compiled."
+					Name		"Code Optimization Flags"
+					Description "Let's the user decide how optimized the code will be"
+					DevTime		4
+					Level		2
+					CodeArt		1
+					Submarkets	[ 2; 5; 0 ]
+				}
+				{
+					Name		"Code Cleaning"
+					Description "Make the code look cleaner whenever compiled."
 					DevTime		3
 					Level		2
 					CodeArt		1
@@ -230,6 +238,14 @@ SoftwareType
 					CodeArt		1
 					Submarkets  0 
 					Script_EndOfDay "/Scripts/sellUserFiles.txt"
+				}
+				{
+					Name		"Auto-saving"
+					Description "Automatically saves the user's code at times specified by the user."
+					DevTime		2
+					Level		3
+					CodeArt		1
+					Submarkets      [ 0; 0; 2 ]
 				}
 			]
 		}
