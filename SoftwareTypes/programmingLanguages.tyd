@@ -124,7 +124,7 @@ SoftwareType
 					Level		3
 					CodeArt		1
 					Submarkets	0
-					Script_EndOfDay "/Scripts/codeCaching.txt"
+					Script_AfterSales "/Scripts/codeCaching.txt"
 				}
 				{
 					Name		"Single Pass"
@@ -133,7 +133,7 @@ SoftwareType
 					Level		3
 					CodeArt		1
 					Submarkets	0
-					Script_EndOfDay "/Scripts/singlePass.txt"
+					Script_AfterSales "/Scripts/singlePass.txt"
 				}
 				{
 					Name		"Multi Pass"
@@ -142,7 +142,7 @@ SoftwareType
 					Level		3
 					CodeArt		1
 					Submarkets	0
-					Script_EndOfDay "/Scripts/multiPass.txt"
+					Script_AfterSales "/Scripts/multiPass.txt"
 				}
 			]
 		}

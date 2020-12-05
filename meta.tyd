@@ -1,3 +1,5 @@
-Name "OE-O | Programming Languages Software Pack"
-Author "MattA and CyaCal (cal3432)"
+Name        "OE-O | Programming Languages (A11)"
 Description "Adds a 'Programming Language' Software to the game."
+Author      MattA
+SteamName   "OE-O | Programming Languages (A11)"
+SteamID     2268545366
